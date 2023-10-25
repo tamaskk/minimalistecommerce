@@ -1,0 +1,6 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+// Define the Footer functional component
+const Footer = () => {
+    return (_jsxs("footer", { className: 'w-screen h-auto', children: [_jsxs("div", { className: 'bg-zinc-900 text-white flex flex-col items-center justify-center py-28', children: [_jsx("h1", { className: 'text-4xl font-bold mb-4', children: "Newsletter" }), _jsxs("div", { children: [_jsx("input", { type: 'text', placeholder: 'anything@anywhere.com', className: 'py-2 pr-10 pl-2 placeholder:text-sm' }), _jsx("button", { className: 'px-2 py-2 bg-white text-black ml-2', children: "Subscribe" })] })] }), _jsxs("div", { className: 'bg-black text-white flex flex-col items-center justify-center py-16 text-lg gap-10', children: [_jsxs("div", { className: 'flex flex-col lg:flex-row gap-5', children: [_jsxs("div", { className: 'flex flex-row gap-5 mb-4', children: [_jsx("a", { href: '#', children: "About" }), _jsx("a", { href: '#', children: "Store Locator" }), _jsx("a", { href: '#', children: "FAQs" })] }), _jsxs("div", { className: 'flex flex-row gap-5', children: [_jsx("a", { href: '#', children: "News" }), _jsx("a", { href: '#', children: "Careers" }), _jsx("a", { href: '#', children: "Contact Us" })] })] }), _jsx("h1", { children: "All Rights Reserved KFurniture Co" })] })] }));
+};
+export default Footer;
