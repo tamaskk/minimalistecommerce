@@ -4,6 +4,7 @@ import useAppContext from "../utils/Maincontext.js";
 
 // Define the CategoriesHeader functional component
 const CategoriesHeader: React.FC = () => {
+
   // Use the 'useAppContext' hook to access the 'handleBtnName' and 'btnName' variables from the context
   const { handleBtnName, btnName } = useAppContext();
 
@@ -11,12 +12,12 @@ const CategoriesHeader: React.FC = () => {
     <>
       <div className="mx-auto max-w-[1200px] px-[19]">
         <div className="flex items-center flex-col pt-[4rem]">
-          <div className="flex items-center mb-24 w-full">
+          <div className="flex justify-around lg:justify-normal items-center mb-24 w-full">
             {/* Create a link to the home page and scroll to the top when clicked */}
             <Link onClick={() => window.scrollTo(0, 0)} to="/" className="items-center text-black flex text-[1.6rem] justify-center text-left decoration-none">
               &lt; Home
             </Link>
-            <h3 className="text-[2rem] font-bold mx-auto text-center uppercase">{btnName}</h3>
+            <h3 className="text-[2rem] mx-0 lg:mx-auto font-bold text-center uppercase">{btnName}</h3>
           </div>
           <div className="flex items-center flex-wrap gap-4 justify-center w-full">
             {/* Create category links with buttons and conditionally apply styles based on 'btnName' */}

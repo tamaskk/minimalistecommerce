@@ -85,7 +85,7 @@ const Navbar: React.FC = () => {
       <nav
         className={`fixed top-0 left-0 z-[99999] w-screen h-screen py-64 bg-slate-300 flex lg:hidden ${
           menuOpened ? "translate-x-0" : "-translate-x-[100vw]"
-        } transition-all text-center duration-500 flex flex-col items-center justify-evenly`}
+        } transition-all text-center duration-500 flex flex-col items-center justify-center gap-y-10`}
       >
         <div
           className="absolute lg:hidden top-5 right-5 z-[999999]"
@@ -96,21 +96,23 @@ const Navbar: React.FC = () => {
           ></div>
           <div className={`w-10 h-1 bg-black rounded-lg -rotate-45`}></div>
         </div>
-        <div className="w-20 h-20 bg-red-600 rounded-full"></div>
+        <div className="w-20 h-20 bg-red-600 rounded-full" onClick={menuOpenHandler}></div>
 
         <Link
-          to="all"
+          to="categories/all"
+          onClick={menuOpenHandler}
           className="uppercase min-w-fit py-2 border-b-2 border-white hover:border-black transition-all duration-300"
         >
           Categories
         </Link>
         <NavLink
-          to=""
+          to="categories/products/:id"
+          onClick={menuOpenHandler}
           className="uppercase min-w-fit py-2 border-b-2 border-white hover:border-black transition-all duration-300"
         >
           Product Page
         </NavLink>
-        <div className="w-10 h-10 bg-black" onClick={cartOpenHandler}>
+        <div className="w-10 h-10 bg-black" onClick={() => {cartOpenHandler(); menuOpenHandler()}}>
           <div className="text-red-600 w-5 h-5 rounded-full bg-white text-center border-2 border-black flex items-center justify-center translate-x-[130%] -translate-y-1/2 p-2">
             {totalQuantity}
           </div>
