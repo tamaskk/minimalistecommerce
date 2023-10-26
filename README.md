@@ -1,46 +1,65 @@
-# Getting Started with Create React App
+![Website Logo](/src/assets/screenshots_and_logo/icons8-furniture-100.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Minimalist Furniture E-commerce Website
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+This project is a minimalist e-commerce website for a furniture company. The website is designed to provide a user-friendly and engaging experience for customers interested in purchasing furniture. It offers a range of features to make shopping for furniture an enjoyable experience.
 
-### `npm start`
+## Main Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Categories Grid**: The main page features a well-designed grid layout that showcases different furniture categories. Users can easily explore and select the category they're interested in.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Featured Products**: A dedicated section highlights selected furniture products that the company is proud of. This section helps users discover popular items.
 
-### `npm test`
+- **Banner**: The website includes a visually appealing banner that captures users' attention and conveys a key message or promotion.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Trending Products Slider**: A slider displays cards for trending products, allowing users to see what's currently popular. Each card represents a product.
 
-### `npm run build`
+- **Product Pages**: When a user clicks on a product, they are taken to a detailed product page. Here, they can find information such as product description, texture, weight, size, images, and price.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Quantity Management**: On the product page, users can adjust the quantity of the item they wish to purchase using add and plus buttons.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Add to Cart**: Users can add products to their cart, specifying the quantity. The selected items are then added to the shopping cart.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Buy Now**: Users have the option to immediately purchase a product with the chosen quantity by clicking the "Buy Now" button.
 
-### `npm run eject`
+- **Cart Management**: In the cart, users can see the items they've added and can increase or decrease the quantity or remove items. The total price is also visible.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Category Page**: The category page provides access to all products within a specific category. Users can filter products using buttons for a more refined search.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Footer**: The website includes a footer section that provides contact information, quick links, a newsletter subscription, and copyright details.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Technologies Used
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- React
+- TypeScript
+- TailwindCSS
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run the project locally, follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repository: `git clone https://github.com/tamaskk/minimalistecommerce`
+2. Navigate to the project directory: `cd minimalistecommerce`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your web browser and visit `http://localhost:3000`
+
+## Contributing
+
+If you'd like to contribute to the project, please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m 'Added feature-name'`
+4. Push to the branch: `git push origin feature-name`
+5. Create a pull request.
+
+## Screenshots
+
+Include screenshots of your website to showcase its design and functionality. You can use these screenshots to give potential users a visual preview of your project.
+![Screenshot 1](/src/assets/screenshots_and_logo/1.png)
+![Screenshot 2](/src/assets/screenshots_and_logo/2.png)
+![Screenshot 3](/src/assets/screenshots_and_logo/3.png)
+![Screenshot 4](/src/assets/screenshots_and_logo/4.png)
